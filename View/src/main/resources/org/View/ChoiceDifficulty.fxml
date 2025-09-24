@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.View.ChoiceDifficultyController">
+   <Label fx:id="Label1" alignment="CENTER" contentDisplay="CENTER" layoutX="237.0" layoutY="20.0" prefHeight="72.0" prefWidth="326.0" text="Wybierz poziom trudności">
+      <font>
+         <Font name="System Bold" size="18.0" />
+      </font>
+   </Label>
+   <ChoiceBox fx:id="Difficulty_choice" layoutX="325.0" layoutY="125.0" prefWidth="150.0" />
+   <Button fx:id="start_game_button" layoutX="346.0" layoutY="220.0" mnemonicParsing="false" onAction="#switchToGameBoard" text="Rozpocznij grę" />
+   <Button fx:id="SelectPolish" layoutX="292.0" layoutY="318.0" mnemonicParsing="false" text="Polski" />
+   <Button fx:id="SelectEnglish" layoutX="454.0" layoutY="318.0" mnemonicParsing="false" text="English" />
+</AnchorPane>
